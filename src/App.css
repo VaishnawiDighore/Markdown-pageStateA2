@@ -1,0 +1,38 @@
+.App {
+  width: 100vw ;
+  height: 100vh;
+}
+
+.Inside-App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  align-content: center;
+  text-align: center;
+}
+.for{
+  height: 90%;
+  width: 50%;
+  margin-top: 2rem;
+}  
+.textarea{
+  min-width: 95%;
+  max-width: 95%;
+  max-height:100%;
+  min-height: 100%;
+} 
+
+.screen_textarea{
+  background-color: #bcc6cf;
+}
+.inputbox_textarea{
+  min-width: 98%;
+  max-width: 99%;
+  min-height: 99%;
+  max-height: 99%;
+  overflow-y: scroll;
+  font-size: 1rem;
+}
